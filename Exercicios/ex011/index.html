@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTLM5</title>
+</head>
+<body>
+    <H1>Imagem dinâmica</H1>
+    <P>Tente abriri esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.</P>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/fotos-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/fotos-m.png" type="image/png">
+        <img src="imagens/fotos-g.png" alt="imagem flexível">
+    </picture>
+
+    <h1>Reproduzir Áudio</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML5</p>
+        <!-- compatibilidade MP3 WAV OGG-->
+    <audio preload="metadata" autoplay controls loop>
+        <source src="midia/THE SMITHS --THERE IS A LIGHT THAT NEVER GOES OUT.MP3" type="audio/mpeg">
+        <source src="midia/THE SMITHS --THERE IS A LIGHT THAT NEVER GOES OUT.ogg" type="audio/ogg">
+        <source src="midia/THE SMITHS --THERE IS A LIGHT THAT NEVER GOES OUT.wav" type="audio/way">
+        <a href="midia/THE SMITHS --THERE IS A LIGHT THAT NEVER GOES OUT.MP3">
+            <p>Infelizmente seu navegador não consegue reproduzir áudio.<a href=""> </a>Clique aqui para baixar o arquivo MP3</p>
+        
+
+    </audio> 
+       
+</body>
+</html>
